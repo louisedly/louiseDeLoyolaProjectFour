@@ -1,0 +1,86 @@
+h1 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 138px;
+    line-height: 126px;
+    color: $primaryColor;
+}
+
+h2 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: $primaryColor;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: $primaryColor;
+}
+
+form label {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: $primaryColor;
+}
+
+a {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $primaryColor;
+}
+
+li {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: $primaryColor;
+    letter-spacing: 1px;
+
+    .movieLabel {
+        font-family: 'Barlow', sans-serif;
+        color: $secondaryColor;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+}
+
+p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 32px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    max-width: 1200px;
+    width: 85%;
+    margin: 0 auto;  
+}
+
+footer p {
+    text-align: center;
+}
+
+.period {
+    color: $secondaryColor;
+}
+
+.plotContainer {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: $primaryColor;
+
+    a {
+        color: $secondaryColor;
+
+        &:hover {
+            color: $primaryColor;
+        }
+    }
+}
+

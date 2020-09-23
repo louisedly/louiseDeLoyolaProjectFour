@@ -1,0 +1,21 @@
+.wrapper {
+    max-width: 1200px;
+    width: 85%;
+    margin: 0 auto;  
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.7)), 
+        url("../styles/assets/headerImage.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+
+
+

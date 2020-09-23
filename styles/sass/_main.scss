@@ -1,0 +1,126 @@
+main {
+    display: flex;
+    justify-content: center;
+    background-color: $primaryBackgroundColor;
+    padding-bottom: 150px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+
+    .searchBar {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+
+input[type=text] {
+    width: 500px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+input:invalid {
+    box-shadow: none;
+}
+
+label {
+    padding: 20px;
+    color: $primaryColor;
+}
+
+button[type=submit],
+.resetButton {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    border: none;
+    margin-left: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.movieAll {
+    width: 33%;
+    margin: 40px 0;
+    padding: 30px;
+    background-color: $primaryBackgroundColor;
+    transition: transform .2s;
+    border-radius: 8px;
+    cursor: pointer;
+
+    img {
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    &:hover {
+        background-color: $secondaryBackgroundColor;
+        transform: scale(1.1);
+        opacity: 0.7;
+    }
+}
+
+
+
+button {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: $buttonColor;
+    color: $primaryColor;
+
+    &:hover {
+        border: 1px solid $buttonHover;
+        background: $buttonHover;
+    }
+}
+
+.resetButton {
+    padding: 10px;
+}
+
+.searchAgain {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.movie {
+    margin-top: 50px;
+    background: linear-gradient(rgba(67, 187, 196, 0.1));
+    padding: 50px;
+    border-radius: 8px;
+
+    img {
+        border-radius: 8px;
+    }
+}
+
+.plotContainer {
+    display: flex;
+    flex-direction: column;
+
+    a {
+        margin: 20px 0;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
